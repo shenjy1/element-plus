@@ -15,6 +15,7 @@
         { text: '2016-05-04', value: '2016-05-04' },
       ]"
       :filter-method="filterHandler"
+      :filter-multiple="true"
     />
     <el-table-column prop="name" label="Name" width="180" />
     <el-table-column prop="address" label="Address" :formatter="formatter" />
